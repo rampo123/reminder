@@ -1,0 +1,18 @@
+# Requirements for the appointments Django project  
+ 
+# Django (1.8 is a long-term support release) 
+django-phonenumber-field
+Django==1.8 
+ 
+ 
+# Third-party app dependencies 
+django-bootstrap3==5.4.0 
+django-forms-bootstrap==3.0.1 
+django-timezone-field==1.2 
+twilio==4.4.0 
+ 
+ 
+# Production dependencies 
+dj-database-url==0.3.0 
+gunicorn==19.3.0  
+
